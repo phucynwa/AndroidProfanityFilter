@@ -10,8 +10,9 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven("https://jitpack.io")
     }
 }
 rootProject.name = "ProfanityFilter"
-include ':app'
-include ':lib'
+include(":app")
+include(":lib")
