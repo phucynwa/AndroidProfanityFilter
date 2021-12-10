@@ -3,6 +3,8 @@ plugins {
     kotlin("android")
 }
 
+group = "com.github.phucynwa"
+
 android {
     compileSdk = 31
 
