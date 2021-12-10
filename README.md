@@ -1,3 +1,5 @@
+![](./illustration_cover.png)
+
 # AndroidProfanityFilter
 
 [![](https://jitpack.io/v/phucynwa/AndroidProfanityFilter.svg)](https://jitpack.io/#phucynwa/AndroidProfanityFilter) [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/phucynwa.svg?style=social&label=Follow%20%40phucynwa)](https://twitter.com/phucynwa)
@@ -5,7 +7,8 @@
 ## Add to project
 
 Step 1. Add it in your root build.gradle at the end of repositories:
-*Groovy*
+
+**Groovy**
 
 ```Groovy
 allprojects {
@@ -16,7 +19,7 @@ allprojects {
 }
 ```
 
-*Kotlin (build.gradle.kts)*
+**Kotlin (build.gradle.kts)**
 
 ```Kotlin
 allprojects {
@@ -29,7 +32,7 @@ allprojects {
 
 Step 2. Add the dependency
 
-*Groovy*
+**Groovy**
 
 ```Groovy
 dependencies {
@@ -37,16 +40,26 @@ dependencies {
 }
 ```
 
-*Kotlin (build.gradle.kts)*
+**Kotlin (build.gradle.kts)**
 
 ```Kotlin
 dependencies {
     implementation("com.github.phucynwa:AndroidProfanityFilter:0.0.3")
 }
 ```
-## License
+
+## Using
+
+```Kotlin
+val dictionary = PlainDictionary(this, "bad_words_en_us.txt")
+val profanityFilter = AndroidProfanityFilter(dictionary = dictionary)
+val censoredText = profanityFilter.censor(originalText)
 ```
-Copyright 2021 Coil Contributors
+
+## License
+
+```
+Copyright 2021 Phuc YNWA
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
