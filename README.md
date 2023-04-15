@@ -2,7 +2,7 @@
 
 # AndroidProfanityFilter
 
-[![](https://jitpack.io/v/phucynwa/AndroidProfanityFilter.svg)](https://jitpack.io/#phucynwa/AndroidProfanityFilter) [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/phucynwa.svg?style=social&label=Follow%20%40phucynwa)](https://twitter.com/phucynwa)
+[![](https://jitpack.io/v/phucynwa/AndroidProfanityFilter.svg)](https://jitpack.io/#phucynwa/AndroidProfanityFilter) [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/phucynwa.svg?style=social&label=Follow%20%40phucynwa)]([https://twitter.com/phucynwa](https://twitter.com/intent/follow?screen_name=phucynwa))
 
 ## Add to project
 
