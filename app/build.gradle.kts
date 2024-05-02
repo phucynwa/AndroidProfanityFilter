@@ -51,7 +51,7 @@ android {
 dependencies {
 
     implementation(project(":lib"))
-    implementation("androidx.core:core-ktx:1.7.0")
+    implementation("androidx.core:core-ktx:1.13.1")
     implementation("androidx.compose.ui:ui:$composeVersion")
     implementation("androidx.compose.material:material:$composeVersion")
     implementation("androidx.compose.material3:material3:1.0.0-alpha02")
