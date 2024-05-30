@@ -36,7 +36,7 @@ android {
 
 dependencies {
     implementation("androidx.core:core-ktx:1.7.0")
-    implementation("androidx.appcompat:appcompat:1.4.0")
+    implementation("androidx.appcompat:appcompat:1.7.0")
     implementation("com.google.android.material:material:1.4.0")
     implementation("com.hankcs:aho-corasick-double-array-trie:1.2.3")
     testImplementation("junit:junit:4.13.2")
